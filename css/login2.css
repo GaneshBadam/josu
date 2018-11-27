@@ -1,0 +1,181 @@
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-style: sans-serif;
+    }
+
+    .header {
+        background-color: white;
+        padding: 4px 4px;
+    }
+
+    .header-right {
+        float: right;
+        margin-top: 10px
+    }
+
+    .header-right a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .header-right button {
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 20px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .log:hover,
+    .signup:hover {
+        background-color: whitesmoke;
+        color: black
+    }
+
+    .log {
+        background-color: white;
+        color: gray;
+        font-family: "sans-serif"
+    }
+
+    .signup {
+        color: black;
+        background-color: dodgerblue;
+        margin-left: -35px;
+        font-family: "sans-serif"
+    }
+
+    .log:active {
+        background-color:
+    }
+    .matter{
+        text-align: center;
+    }
+.one {
+    float: left;
+   
+    width: 100%;
+    height: 500px;
+    background-color: #f1f1f1;
+
+}
+
+.one img{
+    padding-left:300px;
+    margin-top:80px;
+
+}
+.two{
+    float: right;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding: 50px;
+    
+
+}
+.two h2{
+    margin-bottom: 20px;
+}
+.two p{
+    margin-bottom: 25px;
+}
+/*.two input{
+    margin-bottom: 25px; 
+
+}*/
+.j{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.ganesh{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background:transparent;
+    outline:0px; 
+    border-bottom-color: dodgerblue;
+    width: 300px;
+}
+.siva{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background:transparent;
+    outline:0px; 
+    border-bottom-color: dodgerblue;
+    width: 300px;
+}
+.man{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.two button{
+    border: 0px;
+    border-radius: 50px;
+    width: 275px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    height: 35px;
+
+}
+/*#ganesh{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    height: 25px;
+
+
+}
+#password{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    height: 25px;
+
+}*/
+.footer {
+        position: relative;
+        width: 100%;
+        background-color: #0d0d0d;
+        color: white;
+        float: left;
+
+    }
+
+    .image {
+        float: left;
+        padding: 70px;
+    }
+
+    .abt {
+        float: left;
+        padding: 70px;
+    }
+
+    .sup {
+        float: left;
+        padding: 70px;
+    }
+
+    .cls {
+        text-align: justify;
+        padding: 70px;
+    }
+
+    .cls p 
+    {
+        text-align: justify;
+    }
+
+    .social 
+    {
+        margin-right: 180px;
+        float: right;
+        margin-top: -126px;
+    }

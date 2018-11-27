@@ -1,0 +1,151 @@
+body{
+padding: 0px;
+margin:0px;
+width:100%;
+height: 100%;
+font-family: sans-serif;
+}
+img{
+    overflow: 10px;
+}
+.butt button{
+    float: right;
+    border:none;
+    background-color: dodgerblue;
+ margin-left: 20px;
+ border-radius: 8px;
+ /*border:box;*/
+ color: white;
+ height: 30px;
+ width: 100px;
+ margin-top: -7px;
+}
+
+.img ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+.img li {
+    overflow: hidden;
+    background-color:white;
+    display:inline;
+    padding-left:25px;
+    float: right;
+    }
+
+.img li a {
+    font-size:18px; 
+    color:grey;
+    text-decoration: none;
+}
+
+.img li a:hover {
+    background-color:lightgray;
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+    /*padding-bottom: 10px;*/
+    color: white;
+    /*background-image:url(../images/background.png)*/
+   
+}
+.header2
+{
+    text-align:center;
+   margin-top: 50px;
+   clear: both;
+   clear: right;
+}
+
+.support {  
+     float: left;
+     margin-left:170px;
+     text-align: center;
+     padding-left: 108px;
+
+
+}
+
+.help{
+    float: left;
+     padding-left: 60px;
+     text-align: center;
+     margin-left: 130px;
+
+}
+.chat{
+    float: left;
+     padding-left: 110px;
+     margin-left: 100px;
+     text-align: center;}
+.para {
+    width: 100%;
+    float:left;
+    background-color: green;
+    margin-top: 40px;
+    height: 160px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.para h4{
+    margin-left: 500px;
+    color: white;
+}
+.logos{
+    margin: auto;
+
+     float: left
+
+}
+.logos img{
+    width:180px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom:30px;
+    margin-left: 250px;
+    float: left;
+    
+}
+.footer {
+        position: relative;
+        width: 100%;
+        background-color: #0d0d0d;
+        color: white;
+        float: left;
+    }
+
+    .image {
+        float: left;
+        padding: 70px;
+    }
+
+    .abt {
+        float: left;
+        padding: 70px;
+    }
+
+    .sup {
+        float: left;
+        padding: 70px;
+    }
+
+    .cls {
+        text-align: justify;
+        padding: 70px;
+    }
+
+    .cls p 
+    {
+        text-align: justify;
+    }
+
+    .social 
+    {
+        margin-right: 180px;
+        float: right;
+        margin-top: -126px;
+    }

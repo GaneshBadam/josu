@@ -1,0 +1,117 @@
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header {
+        background-color: white;
+        padding: 4px 4px;
+    }
+
+    .header-right {
+        float: right;
+        margin-top: 10px
+    }
+
+    .header-right a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .header-right button {
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 20px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .log:hover,
+    .signup:hover {
+        background-color: whitesmoke;
+        color: black
+    }
+
+    .log {
+        background-color: white;
+        color: gray;
+        font-family: "sans-serif"
+    }
+
+    .signup {
+        color: black;
+        background-color: dodgerblue;
+        margin-left: -35px;
+        font-family: "sans-serif"
+    }
+
+    .log:active {
+        background-color:
+    }
+    .matter{
+        text-align: center;
+    }
+    .middle img{
+        width: 300px;
+        margin-left: 200px
+        /*padding-left: 30px*/
+    }
+    .middle button {
+        margin-left: -220px;
+        border-radius: 40px;
+        width: 150px;
+        height: 30px;
+
+    }
+    .one{
+        background-color: #f1f1f1
+    }
+    .middle{
+        margin-left: -80px;
+        height: 60vh;
+    }
+.footer {
+        position: relative;
+        width: 100%;
+        background-color: #0d0d0d;
+        color: white;
+        float: left;
+
+    }
+
+    .image {
+        float: left;
+        padding: 70px;
+    }
+
+    .abt {
+        float: left;
+        padding: 70px;
+    }
+
+    .sup {
+        float: left;
+        padding: 70px;
+    }
+
+    .cls {
+        text-align: justify;
+        padding: 70px;
+    }
+
+    .cls p 
+    {
+        text-align: justify;
+    }
+
+    .social 
+    {
+        margin-right: 180px;
+        float: right;
+        margin-top: -126px;
+    }
+

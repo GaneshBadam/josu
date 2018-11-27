@@ -1,0 +1,40 @@
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+   .header-right button {
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 20px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .log:hover,
+    .signup:hover {
+        background-color: whitesmoke;
+        color: black
+    }
+
+    .log {
+        background-color: white;
+        color: gray;
+        font-family: "sans-serif"
+    }
+
+    .signup {
+        color: black;
+        background-color: dodgerblue;
+        margin-left: -35px;
+        font-family: "sans-serif"
+    }
+
+    .log:active {
+        background-color:
+    }
+    .matter{
+        text-align: center;
+    }

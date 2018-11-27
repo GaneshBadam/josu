@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="../css/college1.css">
+    <script type="text/javascript" src="../js/clg.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        
+<div class="header">
+        <img src="../IMAGES/logo.png">
+        <div class="header-right">
+            <a href="josu.html">HOME</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#contact">CONTACT US</a>
+            <button class="log" type="button">LOGIN</button>
+            <button class="signup" type="button">SIGNUP</button>
+        </div>
+    </div>
+       <div class="one">
+      <img src="../IMAGES/college.png"; width="50%">                             
+      <div class="two">                              
+        <h2>College Registration</h2>
+          <p>Create your account in easy  steps with less informaction</p>
+        <div class="matter">
+        <div class="j"> 
+            <form name="RegForm" onsubmit="return validate()" action="userhome.html">
+            FirstName<br><input type="text" class="details" name="firstname" placeholder="firstname"><br>
+        </div>
+        <div class="g">
+            LastName<br><input type="text" class="details" name="lastname" placeholder="lastname">
+        </div>
+        <div class="man">
+            UserID<br><input type="text" class="details" id="e" name="userid" placeholder="userid">
+        </div>
+        <div class="man">
+            Email ID<br><input type="text" class="details" id="e" name="emailid" placeholder="@gmail.com"><br><br>
+            Password<br><input type="password" class="details" id="e" name="password"><br>
+        </div>    
+        </div><br> <br> 
+            <input style="margin-left: 160px; color: dodgerblue " type="Submit" value="Register" onclick="validate()">
+        <!-- <button><a href="college2.html" style="text-decoration: none;color: black margin-left:20px">></a> </button>  -->
+</form>
+    </div>
+    </div>
+       <section class="section">
+        <div class="footer">
+            <div class="image">
+                <img src="../IMAGES/logo4.png">
+                <pre>&copy;2017 Lync Digital, Inc. All rights reserved.
+            </pre>
+                <p><a href="https://www.digital-lync.com/">www.digital-lync.com</a></p>
+            </div>
+            <div class="abt">
+                <h3>ABOUT</h3>
+                <p>Our Mission</p>
+                <p>Company</p>
+                <p>Jobs</p>
+                <p>Blog</p>
+            </div>
+            <div class="sup">
+                <h3>SUPPORT</h3>
+                <p>FAQ</p>
+                <p>Help Centre</p>
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="cls">
+                <h3>CONTACT</h3>
+                <p>Email Us</p>
+                <p>Live Chat</p>
+            </div>
+             <div class="social">
+                <i style="font-size:15px" class="fa">&#xf099;</i>
+                <i style="font-size:15px" class="fa">&#xf230;</i>
+                <i style="font-size:15px" class="fa">&#xf0e1;</i>
+            </div>
+        </div>
+    </section> 
+    <script type="text/javascript">
+        
+
+          function validate(){
+                 var firstName=document.forms["RegForm"]["firstname"].value;
+                 firstName=firstName.trim();
+                 firstNameRegEx=/[^A-z]/;
+                 if(firstName === ""){
+                     alert("First Name cannot be empty");
+                     return false;
+                 }
+                 if(firstName.length<4)
+                 {
+                     window.alert("First name should be atleast 4 chars");
+                     return false;
+                 }
+                 if(firstName.indexOf(" ")>0)
+                 {
+                     alert("Username should not have a space");
+                     return false;
+                 }
+                 if(firstNameRegEx.test(firstName))
+                 {
+                     alert("first name should not have special characters / digits");
+                     return false;
+                 }
+
+                var lastName=document.forms["RegForm"]["lastname"].value;
+                 lastName=lastName.trim();
+                 lastNameRegEx=/[^A-z]/;
+                 if(lastName === ""){
+                     alert("Last Name cannot be empty");
+                     return false;
+                 }
+                 if(lastName.length<4)
+                 {
+                     window.alert("Last name should be atleast 4 chars");
+                     return false;
+                 }
+                 if(lastName.indexOf(" ")>0)
+                 {
+                     alert("Username should not have a space");
+                     return false;
+                 }
+                 if(lastNameRegEx.test(lastName))
+                 {
+                     alert("Last name should not have special characters / digits");
+                     return false;
+                 }
+
+
+                  var username=document.forms["RegForm"]["userid"].value;
+                  var userNameRegEx=/^(?=.*[\d]*)(?=.*[!@#$%^&*])/;
+                  if(username.length<6)
+                  {
+                        alert("userid should be atleast 6 characters");
+                        return false;
+                  }
+                  if(userNameRegEx.test(username))
+                  {
+                      alert("userid should not have special characs");
+                          return false;
+                  }
+
+
+                  var username=document.forms["RegForm"]["emailid"].value;
+                  var userNameRegEx=/^(?=.*[\d]*)(?=.*[!@#$%^&*])/;
+                  if(username.length<6)
+                  {
+                        alert("username should be atleast 6 characters");
+                        return false;
+                  }
+                  if(userNameRegEx.test(username))
+                  {
+                      alert("username should not have special characs");
+                          return false;
+                  }
+                  
+
+                  var password=document.forms["RegForm"]["password"].value;
+                  passwordRegEx=/^(?=.*[\d])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])[\w!@#$%^&*]{8,}$/;
+                  if(passwordRegEx.test(password) == false)
+                  {
+                       alert("password did not follow restrictions");
+                       return false;
+                  }
+                return true;
+
+            }
+
+    </script>
+    </body>
+    </html>

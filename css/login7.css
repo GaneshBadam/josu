@@ -1,0 +1,49 @@
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif; 
+    }
+
+    .header {
+        background-color: white;
+        padding: 4px 4px;
+    }
+
+    .header-right {
+        float: right;
+        margin-top: 10px
+    }
+
+    .header-right a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .header-right button {
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 20px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .log:hover,
+    .signup:hover {
+        background-color: whitesmoke;
+        color: black
+    }
+
+    .log {
+        background-color: white;
+        color: gray;
+        font-family: sans-serif;
+        margin-right: 20px;
+    }
+
+    .log:active {
+        background-color:
+    }
